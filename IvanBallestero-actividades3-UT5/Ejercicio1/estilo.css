@@ -1,0 +1,51 @@
+.tabla {
+    display: table;
+    background-color: rgba(245, 245, 218, 0.76);
+    border: 2px solid black;
+    text-align: center;
+    height: 200px;
+    width: 900px;;
+    margin-top: 20px;;
+} 
+
+.columna {
+    display: table-caption;
+    text-align: center;
+    border: 2px solid black;
+    border-bottom: 0px;
+    background-color: yellowgreen;
+    font-weight: bolder;
+    font-size: large;
+} 
+
+.fila {
+    display: table-row;
+    border: 3px black;
+    font-family: fantasy;
+    font-size: small;
+}
+
+.encabezado {
+    display: table-row;
+    border: 2px black;
+}
+
+.seccion{
+    display: table-cell;
+    font-weight: bolder;
+    border: 1px solid black;
+}
+
+.celda{
+    display: table-cell;
+    background-color: lightblue;
+    border: 1px solid black;
+    width: 100px;
+}
+
+.celdaMin{
+    display: table-cell;
+    background-color: lightcoral;
+    border: 1px solid black;
+    
+}

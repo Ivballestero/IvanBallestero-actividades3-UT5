@@ -1,0 +1,48 @@
+#conversacion{
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    right: 35%;
+    top: 15%;
+    height: 700px;
+    width: 400px;
+    background-image: url("./fondo.jpg");
+    background-repeat: no-repeat;
+    border-radius: 20px;
+}
+
+#mensajes{
+    display:flex;
+    flex-direction: column;
+    margin: 10px 10px;
+    overflow-y: auto;
+}
+
+.mensaje_emisor{
+    background-color: whitesmoke;
+    align-self: flex-start;
+    margin-left: 5px;
+    color: black;
+    font-family:'Courier New', Courier, monospace;
+    padding: 7px;
+    border-radius: 25px;
+    border: 2px solid black;
+    -webkit-box-shadow: 10px 12px 5px 0px rgba(0,0,0,0.57);
+    -moz-box-shadow: 10px 12px 5px 0px rgba(0,0,0,0.57);
+    box-shadow: 10px 12px 5px 0px rgba(0,0,0,0.57);
+}
+
+.mensaje_receptor{
+    align-self: flex-end;
+    background-color: whitesmoke;
+    max-width: 70%;
+    margin-right: 5px;
+    font-family:'Courier New', Courier, monospace;
+    color: black;
+    padding: 7px;
+    border-radius: 25px;
+    border: 2px solid black;
+    -webkit-box-shadow: 10px 12px 5px 0px rgba(0,0,0,0.57);
+    -moz-box-shadow: 10px 12px 5px 0px rgba(0,0,0,0.57);
+    box-shadow: 10px 12px 5px 0px rgba(0,0,0,0.57);
+}
